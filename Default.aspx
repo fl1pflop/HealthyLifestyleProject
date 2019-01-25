@@ -58,7 +58,7 @@
 						<div class="flexslider">
 							<ul class="slides">
 								<li>
-									<img src="img/1.jpg" />
+									<img src='img/1.jpg' />
 								</li>
 								<li>
 									<img src="img/2.jpg" />

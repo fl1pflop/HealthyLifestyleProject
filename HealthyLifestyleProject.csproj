@@ -80,11 +80,30 @@
     <Content Include="bananas.aspx" />
     <Content Include="BJU_products.aspx" />
     <Content Include="calorific_value.aspx" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\styles1.css" />
+    <Content Include="css\styles1_new.css" />
+    <Content Include="css\styles2.css" />
+    <Content Include="css\styles_new.css" />
     <Content Include="Default.aspx" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\12334.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\33.jpg" />
+    <Content Include="img\44.jpg" />
+    <Content Include="img\bg_direction_nav.png" />
+    <Content Include="img\blue_abstract_background.jpg" />
+    <Content Include="img\vector-food-background-pattern.jpg" />
+    <Content Include="img\vegetables.jpg" />
     <Content Include="important_information.aspx" />
+    <Content Include="js\jquery.flexslider.js" />
     <Content Include="oranges.aspx" />
     <Content Include="LogIn.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +212,7 @@
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\HealthyLifestyleProject - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -203,6 +223,7 @@
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

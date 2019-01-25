@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>HealthyLifestyleProject</Name>
+    <Name>HealthyLifestyleProject_withAllFiles</Name>
     <Description>&lt;No description available&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>HealthyLifestyleProject</DefaultName>
+    <DefaultName>HealthyLifestyleProject_withAllFiles</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -31,6 +31,14 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="calorific_value.aspx">calorific_value.aspx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="calorific_value.aspx.cs">calorific_value.aspx.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="calorific_value.aspx.designer.cs">calorific_value.aspx.designer.cs</ProjectItem>
+      <Folder Name="css" TargetFolderName="css">
+        <ProjectItem ReplaceParameters="true" TargetFileName="flexslider.css">flexslider.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="styles.css">styles.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="styles_new.css">styles_new.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="styles1.css">styles1.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="styles1_new.css">styles1_new.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="styles2.css">styles2.css</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="false" TargetFileName="DataClasses1.dbml">DataClasses1.dbml</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="DataClasses1.dbml.layout">DataClasses1.dbml.layout</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="DataClasses1.designer.cs">DataClasses1.designer.cs</ProjectItem>
@@ -41,9 +49,24 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.designer.cs">Default.aspx.designer.cs</ProjectItem>
+      <Folder Name="img" TargetFolderName="img">
+        <ProjectItem ReplaceParameters="false" TargetFileName="1.jpg">1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="12334.jpg">12334.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="2.jpg">2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="3.jpg">3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="33.jpg">33.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="44.jpg">44.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bg_direction_nav.png">bg_direction_nav.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="blue_abstract_background.jpg">blue_abstract_background.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="vector-food-background-pattern.jpg">vector-food-background-pattern.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="vegetables.jpg">vegetables.jpg</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="important_information.aspx">important_information.aspx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="important_information.aspx.cs">important_information.aspx.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="important_information.aspx.designer.cs">important_information.aspx.designer.cs</ProjectItem>
+      <Folder Name="js" TargetFolderName="js">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.flexslider.js">jquery.flexslider.js</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="LogIn.aspx">LogIn.aspx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="LogIn.aspx.cs">LogIn.aspx.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="LogIn.aspx.designer.cs">LogIn.aspx.designer.cs</ProjectItem>
@@ -53,6 +76,9 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="HealthyLifestyleProject - Web Deploy.pubxml">HealthyLifestyleProject - Web Deploy.pubxml</ProjectItem>
+        </Folder>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
